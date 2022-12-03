@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class Panel : MonoBehaviour
 {
-    //矢印をクリックしたら画面遷移する　
-
-    public void OnCloickRigthArrow()
+   
+    public void OnRightArrow()
     {
-        transform.localPosition = new Vector2(-1000,0);
+        transform.localPosition = new Vector2(-2000, 0);
     }
 
-    public void OnCloickLiftYazirusi()
+    public void OnLiftArrow()
     {
-
+        transform.localPosition = new Vector2(0, 0);
     }
-
 
 }
