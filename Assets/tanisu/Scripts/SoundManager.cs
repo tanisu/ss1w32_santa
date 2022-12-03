@@ -104,7 +104,11 @@ public class BGMSoundData
 {
     public enum BGM
     {
-        TEST
+        TEST,
+        MAIN_SLOW,
+        MAIN_FAST,
+        GAMEOVER,
+        GAMECLEAR
 
     }
 
@@ -119,7 +123,11 @@ public class SESoundData
 {
     public enum SE
     {
-
+        OPEN_DOOR,
+        DRAWER,
+        BUTTON,
+        TOY_BOX,
+        DISCOVER
     }
 
     public SE se;
