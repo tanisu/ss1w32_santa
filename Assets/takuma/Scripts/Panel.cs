@@ -7,7 +7,7 @@ public class Panel : MonoBehaviour
    
     public void OnRightArrow()
     {
-        transform.localPosition = new Vector2(-2000, 0);
+        transform.localPosition = new Vector2(-1190, 0);
     }
 
     public void OnLiftArrow()
