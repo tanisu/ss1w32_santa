@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class ToyBox : MonoBehaviour
 {
+    [SerializeField] GameObject OpenToyBox; 
+
     public void OnClickObj()
     {
         gameObject.SetActive(true);
     }
+
 }
