@@ -1,20 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class TestBGM : MonoBehaviour
 {
-
+    [SerializeField] Toggle loopToggle;
     void Start()
     {
-              
+        loopToggle.onValueChanged.AddListener(x=> {
+            SoundManager.I.LoopSwitch();
+        });
     }
 
     private void Update()
     {
+        
+        
         if (Input.GetKeyDown(KeyCode.Return))
         {
             SoundManager.I.PlayBGM(BGMSoundData.BGM.TEST);
+        }
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            SoundManager.I.PlayBGM(BGMSoundData.BGM.MAIN_SLOW);
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
