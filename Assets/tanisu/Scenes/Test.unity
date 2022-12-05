@@ -1848,11 +1848,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8905628444219954966, guid: 5d04d84c3367a8149bf1ec84c6271e04, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8905628444219954966, guid: 5d04d84c3367a8149bf1ec84c6271e04, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlayBGM
+      objectReference: {fileID: 0}
+    - target: {fileID: 8905628444219954967, guid: 5d04d84c3367a8149bf1ec84c6271e04, type: 3}
+      propertyPath: BGM_Type
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d04d84c3367a8149bf1ec84c6271e04, type: 3}
