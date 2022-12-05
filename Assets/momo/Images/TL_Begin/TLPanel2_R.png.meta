@@ -207,9 +207,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 28
-        y: 1395
-        width: 386
-        height: 215
+        y: 1392
+        width: 382
+        height: 218
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +227,10 @@ TextureImporter:
       name: TLPanel2_R_4
       rect:
         serializedVersion: 2
-        x: 450
-        y: 1236
-        width: 296
-        height: 430
+        x: 418
+        y: 1234
+        width: 432
+        height: 431
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
