@@ -13,15 +13,21 @@ public class Dial : MonoBehaviour
 
     enum Mark
     {
+        s0,
         s1,
         s2,
         s3,
         s4,
+        s5,
+        s6,
+        s7,
+        s8,
+        s9,
     }
 
     Mark[] currentMarks = { Mark.s1, Mark.s1, Mark.s1 };
 
-    Mark[] SeikaiMarks = { Mark.s1, Mark.s1, Mark.s2 };
+    Mark[] SeikaiMarks = { Mark.s6, Mark.s4, Mark.s6 };
 
 
     public void OnMarkButton(int position)
@@ -43,7 +49,7 @@ public class Dial : MonoBehaviour
     {
         currentMarks[position]++;
 
-        if(currentMarks[position] > Mark.s4)
+        if(currentMarks[position] > Mark.s9)
         {
             currentMarks[position] = Mark.s1;
         }

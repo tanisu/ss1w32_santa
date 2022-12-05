@@ -23,7 +23,7 @@ public class Item : MonoBehaviour
 
         
         SetItem();
-        UseItem();
+        GetItem();
     }
 
 
@@ -34,7 +34,18 @@ public class Item : MonoBehaviour
 
     }
 
-    public void UseItem()
+
+   public bool UseItem()
+    {
+
+        if(ItemBoxs[0].activeSelf == true)
+        {
+            return true;
+        }
+        return false;
+    }
+
+    public void GetItem()
     {
         ItemBoxs[0].SetActive(false);
     }
