@@ -57,9 +57,9 @@ public class SoundManager : MonoBehaviour
         bgmAudioSource.Stop();
     }
 
-    public void LoopSwitch()
+    public void LoopSwitch(bool _loop)
     {
-        bgmAudioSource.loop = !bgmAudioSource.loop;
+        bgmAudioSource.loop = _loop;
     }
 
     public void ChangeBGMVolumes()
@@ -127,7 +127,10 @@ public class SESoundData
         DRAWER,
         BUTTON,
         TOY_BOX,
-        DISCOVER
+        DISCOVER,
+        SANTA_LAUGH,
+        SLEEPING,
+        SURPRISED
     }
 
     public SE se;
