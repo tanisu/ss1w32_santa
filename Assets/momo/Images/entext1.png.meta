@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 48eba8bc629cf441495b5efaf6af593e
+guid: 6b9a3e85e2042484d84fd3579fe5f10b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -140,295 +140,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HInt_React_0
-      rect:
-        serializedVersion: 2
-        x: 631
-        y: 1673
-        width: 205
-        height: 242
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f289af516f3fb4601b74709bf04d0768
-      internalID: 2046293423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HInt_React_1
-      rect:
-        serializedVersion: 2
-        x: 643
-        y: 1404
-        width: 152
-        height: 224
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52532c04e7e3045a69f8b1fa888a120a
-      internalID: -460937783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HInt_React_2
-      rect:
-        serializedVersion: 2
-        x: 859
-        y: 1417
-        width: 138
-        height: 230
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1343ce2f2b55463497e6280ec96ad91
-      internalID: 1404641036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HInt_React_3
-      rect:
-        serializedVersion: 2
-        x: 566
-        y: 851
-        width: 660
-        height: 526
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4663ef482d90a4bfda11539353485f10
-      internalID: 1112384242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HInt_React_4
-      rect:
-        serializedVersion: 2
-        x: 746
-        y: 7
-        width: 124
-        height: 578
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28ffb93076c564e6fb455dca3fff3e76
-      internalID: -1711042723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HInt_React_5
-      rect:
-        serializedVersion: 2
-        x: 920
-        y: 349
-        width: 109
-        height: 197
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b5ccff6ce08e412cabad0fdad005c83
-      internalID: 641255872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HInt_React_6
-      rect:
-        serializedVersion: 2
-        x: 1180
-        y: 521
-        width: 220
-        height: 229
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb7ccda1c37664793842559b0685a3c4
-      internalID: 1073270269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HInt_React_7
+      name: entext1_0
       rect:
         serializedVersion: 2
         x: 25
-        y: 1522
-        width: 546
-        height: 279
+        y: 826
+        width: 638
+        height: 198
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fbc3621f40b442e987f9accafba8a62
-      internalID: -203160960
+      spriteID: f6c9bb5615178483a8fdb239b03ecb34
+      internalID: -1143302581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HInt_React_8
+      name: entext1_1
       rect:
         serializedVersion: 2
-        x: 94
-        y: 1231
-        width: 156
-        height: 253
+        x: 709
+        y: 839
+        width: 294
+        height: 176
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1902562a031f543e882847f47de0380a
-      internalID: -1950721702
+      spriteID: 38f1cd15969754bdba84cf451ac3f707
+      internalID: 1769943960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HInt_React_9
-      rect:
-        serializedVersion: 2
-        x: 425
-        y: 142
-        width: 94
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d4d6fbe4733a4f6bb117613f02d79ef
-      internalID: -328059229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HInt_React_10
-      rect:
-        serializedVersion: 2
-        x: 580
-        y: 602
-        width: 204
-        height: 203
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29574d3feed6a4c718529206d199cbc9
-      internalID: -1110563796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HInt_React_11
-      rect:
-        serializedVersion: 2
-        x: 994
-        y: 70
-        width: 180
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46ecb84a5f93b4141998da0d11990994
-      internalID: 497471581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HInt_React_12
+      name: entext1_2
       rect:
         serializedVersion: 2
         x: 27
-        y: 1803
-        width: 260
-        height: 233
+        y: 571
+        width: 393
+        height: 231
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ed549b08fc08450b8636cfffff81f2c
-      internalID: -1185021522
+      spriteID: a32ab1d06d7284fe6a844fbabe789645
+      internalID: -35217375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HInt_React_13
+      name: entext1_3
       rect:
         serializedVersion: 2
-        x: 483
-        y: 1873
-        width: 137
-        height: 132
+        x: 50
+        y: 343
+        width: 505
+        height: 217
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7055c675bd2f4f8d9c951bcc785a230
-      internalID: -797762037
+      spriteID: a63681c0155ad4387b7eef646f97af15
+      internalID: -577795114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: entext1_4
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 347
+        width: 404
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f162c9f24acc4afcb25c78921d19523
+      internalID: 1819132652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: entext1_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 24
+        width: 506
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60635a193fc6048a0b44f0ef13efe77a
+      internalID: 1534601252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: entext1_6
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 0
+        width: 460
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6633606736f5f438196743c89c9f5b80
+      internalID: -1228760495
       vertices: []
       indices: 
       edges: []
@@ -444,20 +297,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HInt_React_5: 641255872
-      HInt_React_13: -797762037
-      HInt_React_11: 497471581
-      HInt_React_2: 1404641036
-      HInt_React_3: 1112384242
-      HInt_React_8: -1950721702
-      HInt_React_1: -460937783
-      HInt_React_9: -328059229
-      HInt_React_12: -1185021522
-      HInt_React_6: 1073270269
-      HInt_React_0: 2046293423
-      HInt_React_7: -203160960
-      HInt_React_4: -1711042723
-      HInt_React_10: -1110563796
+      entext1_4: 1819132652
+      entext1_0: -1143302581
+      entext1_2: -35217375
+      entext1_1: 1769943960
+      entext1_3: -577795114
+      entext1_5: 1534601252
+      entext1_6: -1228760495
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
