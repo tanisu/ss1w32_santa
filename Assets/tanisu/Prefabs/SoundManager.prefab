@@ -54,12 +54,15 @@ MonoBehaviour:
     volume: 1
   - bgm: 1
     audioClip: {fileID: 8300000, guid: a9b81b0e6e1323d4ab5c852ea9d13237, type: 3}
-    volume: 1
+    volume: 0.773
   - bgm: 2
     audioClip: {fileID: 8300000, guid: b98012c1bc0465844a91ee54b6599a1c, type: 3}
-    volume: 1
+    volume: 0.448
   - bgm: 5
     audioClip: {fileID: 8300000, guid: 71e90fb5336f0c547b2e73183c5b0388, type: 3}
+    volume: 0.286
+  - bgm: 3
+    audioClip: {fileID: 8300000, guid: e96a33693539c2a48bf282ea7b912130, type: 3}
     volume: 1
   SESoundDatas:
   - se: 0
