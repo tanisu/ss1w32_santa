@@ -10,6 +10,15 @@ public class CountDownTime1 : MonoBehaviour
     private float countdown;
     public Text timerText;
     public bool isTimeUp;
+    private float stoptime1;
+
+
+    public static CountDownTime1 instance;
+
+    public void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
@@ -29,5 +38,14 @@ public class CountDownTime1 : MonoBehaviour
         {
             isTimeUp = true;
         }
+
+    }
+    
+    
+    public void stoptime()
+    {
+
+        Time.timeScale = 0;
+
     }
 }
