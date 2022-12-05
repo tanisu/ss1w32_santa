@@ -108,7 +108,8 @@ public class BGMSoundData
         MAIN_SLOW,
         MAIN_FAST,
         GAMEOVER,
-        GAMECLEAR
+        GAMECLEAR,
+        TL1
 
     }
 
