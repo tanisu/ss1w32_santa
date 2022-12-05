@@ -124,32 +124,32 @@ public class PanelChanger : MonoBehaviour
             case Panel.Panel1:
                 rightArrow.SetActive(true);
                 leftArrow.SetActive(true);
-                transform.localPosition = new Vector2(-800, 0);
+                transform.localPosition = new Vector2(-1200, 0);
                 break;
             case Panel.Panel2:
                 rightArrow.SetActive(true);
                 leftArrow.SetActive(true);
-                transform.localPosition = new Vector2(-1600, 0);
+                transform.localPosition = new Vector2(-2400, 0);
                 break;
             case Panel.Panel3:
                 leftArrow.SetActive(true);
-                transform.localPosition = new Vector2(-2400, 0);
+                transform.localPosition = new Vector2(-3600, 0);
                 break;
             case Panel.Panel4:
                 backArrow.SetActive(true);
-                transform.localPosition = new Vector2(0, 400);
+                transform.localPosition = new Vector2(0, 800);
                 break;
             case Panel.Panel5:
                 backArrow.SetActive(true);
-                transform.localPosition = new Vector2(-800, 400);
+                transform.localPosition = new Vector2(-1200, 800);
                 break;
             case Panel.Panel6:
                 backArrow.SetActive(true);
-                transform.localPosition = new Vector2(-1600, 400);
+                transform.localPosition = new Vector2(-2400, 800);
                 break;
             case Panel.Panel7:
                 backArrow.SetActive(true);
-                transform.localPosition = new Vector2(0, 800);
+                transform.localPosition = new Vector2(0, 1600);
                 break;
         }
         }
