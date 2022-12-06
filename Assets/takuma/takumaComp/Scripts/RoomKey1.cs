@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoomKey : MonoBehaviour
+public class RoomKey1 : MonoBehaviour
 {
     public void OnThis()
     {
         gameObject.SetActive(false);
-        Item.instance.SetItem();
+        Item1.instance.SetItem();
     }
 
    

@@ -21,6 +21,6 @@ public class ItemManager : MonoBehaviour
         gameObject.SetActive(false);
 
         // ・ItemBoxに追加する
-        ItemBox.instance.SetItem(item);
+        ItemBox1.instance.SetItem(item);
     }
 }

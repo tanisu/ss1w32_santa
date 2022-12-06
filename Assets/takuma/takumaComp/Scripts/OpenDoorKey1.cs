@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OpenDoorKey : MonoBehaviour
+public class OpenDoorKey1 : MonoBehaviour
 {
 
     public GameObject Door;
     public GameObject OpenDoor;
-    public static OpenDoorKey instance;
+    public static OpenDoorKey1 instance;
 
     public void Awake()
     {
@@ -17,18 +17,18 @@ public class OpenDoorKey : MonoBehaviour
     public void OnThis()
     {
         
-        bool hasItem = Item.instance.UseItem();
+        bool hasItem = Item1.instance.UseItem();
         if (hasItem == true)
         {
             
             gameObject.SetActive(false);
             
-            Item.instance.GetItem();
+            Item1.instance.GetItem();
 
             Door.SetActive(false);
             OpenDoor.SetActive(true);
 
-            CountDownTime1.instance.stoptime();
+            CountDownTime01.instance.stoptime();
         }
 
 

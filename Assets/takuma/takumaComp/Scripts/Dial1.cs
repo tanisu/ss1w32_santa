@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-public class Dial : MonoBehaviour
+public class Dial1 : MonoBehaviour
 {
     public Image[] button;
     public Sprite[] Sozai;
