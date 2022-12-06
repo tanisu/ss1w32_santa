@@ -22,19 +22,19 @@ public class Item : MonoBehaviour
         ItemBoxs[2].SetActive(false);
 
         
-        SetItem();
-        UseItem();
+        SetItem1();
+        UseItem1();
     }
 
 
-    public void SetItem()
+    public void SetItem1()
     {
 
         ItemBoxs[0].SetActive(true);
 
     }
 
-    public void UseItem()
+    public void UseItem1()
     {
         ItemBoxs[0].SetActive(false);
     }

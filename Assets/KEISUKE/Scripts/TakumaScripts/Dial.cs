@@ -19,15 +19,15 @@ public class Dial : MonoBehaviour
         s4,
     }
 
-    Mark[] currentMarks = { Mark.s1, Mark.s1, Mark.s1 };
+    Mark[] currentMarks1 = { Mark.s1, Mark.s1, Mark.s1 };
 
-    Mark[] SeikaiMarks = { Mark.s1, Mark.s1, Mark.s2 };
+    Mark[] SeikaiMarks1 = { Mark.s1, Mark.s1, Mark.s2 };
 
 
-    public void OnMarkButton(int position)
+    public void OnMarkButton1(int position)
     {
-        ChangeMark(position);
-        ShowMark(position);
+        ChangeMark1(position);
+        ShowMark1(position);
 
         if (IsAllClearMarks() == true)
         {
@@ -39,20 +39,20 @@ public class Dial : MonoBehaviour
     }
 
 
-    void ChangeMark(int position)
+    void ChangeMark1(int position)
     {
-        currentMarks[position]++;
+        currentMarks1[position]++;
 
-        if(currentMarks[position] > Mark.s4)
+        if(currentMarks1[position] > Mark.s4)
         {
-            currentMarks[position] = Mark.s1;
+            currentMarks1[position] = Mark.s1;
         }
 
     }
 
-    void ShowMark(int position)
+    void ShowMark1(int position)
     {
-        int index = (int)currentMarks[position];
+        int index = (int)currentMarks1[position];
         button[position].sprite = Sozai[index];
 
     }
@@ -60,9 +60,9 @@ public class Dial : MonoBehaviour
     bool IsAllClearMarks()
     {
 
-        if (SeikaiMarks[0] == currentMarks[0] &&
-                SeikaiMarks[1] == currentMarks[1] &&
-                SeikaiMarks[2] == currentMarks[2])
+        if (SeikaiMarks1[0] == currentMarks1[0] &&
+                SeikaiMarks1[1] == currentMarks1[1] &&
+                SeikaiMarks1[2] == currentMarks1[2])
         {
             return true;
         }

@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : MonoBehaviour
+public class Item1 : MonoBehaviour
 {
     public GameObject[] ItemBoxs;
 
 
-    public static Item instance;
+    public static Item1 instance;
 
     private void Awake()
     {

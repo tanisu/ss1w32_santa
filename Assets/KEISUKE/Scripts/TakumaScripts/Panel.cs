@@ -25,59 +25,83 @@ public class Panel : MonoBehaviour
     public void OnStart()
     {
         transform.localPosition = new Vector2(0,0);
+        currentPanel = Panelde.Panel1;
         StartGamen.instance.OnTrueStart();
 
     }
 
     public void OnRightArrow()
     {
-        transform.localPosition = new Vector2(-1190, 0);
-        currentPanel = Panelde.Panel1;
-    }
 
-    public void OnLiftArrow()
-    {
-        transform.localPosition = new Vector2(0, 0);
-        currentPanel = Panelde.Panel2;
-    }
+        switch (currentPanel)
+        {
+            case Panelde.Panel1:
+                transform.localPosition = new Vector2(-1200, 0);
+                currentPanel = Panelde.Panel2;
+                break;
 
-    public void OnClickToyBox()
-    {
-        transform.localPosition = new Vector2(0, 800);
-        currentPanel = Panelde.Panel5;
-    }
+            case Panelde.Panel2:
+                transform.localPosition = new Vector2(-2400, 0);
+                currentPanel = Panelde.Panel3;
+                break;
 
-    public void Action()
-    {
-        transform.localPosition = new Vector2(-1200, 800);
-        currentPanel = Panelde.Panel6;
-
+        }
     }
-    public void OnbackArrow()
-    {
+        public void OnLiftArrow()
+        {
+          
         switch (currentPanel)
         {
             case Panelde.Panel2:
                 transform.localPosition = new Vector2(0, 0);
+                currentPanel = Panelde.Panel1;
                 break;
 
             case Panelde.Panel3:
-                transform.localPosition = new Vector2(-1190, 0);
+                transform.localPosition = new Vector2(-1200, 0);
+                currentPanel = Panelde.Panel2;
                 break;
 
-            case Panelde.Panel5:
-                transform.localPosition = new Vector2(0, 0);
-                break;
         }
+
+
+    }
+
+        public void OnClickToyBox()
+        {
+            transform.localPosition = new Vector2(0, 800);
+            currentPanel = Panelde.Panel5;
+        }
+
+        public void Action()
+        {
+            transform.localPosition = new Vector2(-1200, 800);
+            currentPanel = Panelde.Panel6;
+
+        }
+        public void OnbackArrow()
+        {
+            switch (currentPanel)
+            {
+                case Panelde.Panel2:
+                    transform.localPosition = new Vector2(0, 0);
+                    break;
+
+                case Panelde.Panel3:
+                    transform.localPosition = new Vector2(-1190, 0);
+                    break;
+
+                case Panelde.Panel5:
+                    transform.localPosition = new Vector2(0, 0);
+                    break;
+            }
+        }
+
+    public void Nazotoki()
+    {
+        transform.localPosition = new Vector2(0, 0);
+       
     }
 
 
-
-   
-
-
-
-
-
-
-}
+    }

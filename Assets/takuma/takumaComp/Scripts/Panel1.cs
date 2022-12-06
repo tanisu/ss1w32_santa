@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Panel : MonoBehaviour
+public class Panel1 : MonoBehaviour
 {
     [SerializeField] Dial ClearDial;
     [SerializeField] StartGamen Gamen;

@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartGamen : MonoBehaviour
+public class StartGamen01 : MonoBehaviour
 {
 
     public GameObject[] UI;
-   
-    public static StartGamen instance;
+
+    public static StartGamen01 instance;
 
     public void Awake()
     {
@@ -18,7 +18,7 @@ public class StartGamen : MonoBehaviour
     {
         UI[0].SetActive(false);
         UI[1].SetActive(false);
-        
+
     }
 
     public void OnTrueStart()
@@ -28,3 +28,4 @@ public class StartGamen : MonoBehaviour
     }
 
 }
+

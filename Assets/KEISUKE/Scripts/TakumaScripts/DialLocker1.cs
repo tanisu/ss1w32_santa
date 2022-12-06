@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-public class DialLocker : MonoBehaviour
+public class DialLocker1 : MonoBehaviour
 {
     //７つのボタンをクリックして、パスワードを揃えればクリア
 

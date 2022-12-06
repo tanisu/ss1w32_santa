@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class PanelChanger : MonoBehaviour
 {
-    public GameObject rightArrow;
+  
+    
+    
+    
+    
+  /*public GameObject rightArrow;
     public GameObject leftArrow;
     public GameObject backArrow;
 
@@ -152,5 +157,5 @@ public class PanelChanger : MonoBehaviour
                 transform.localPosition = new Vector2(0, 1600);
                 break;
         }
-        }
+        }*/
 }

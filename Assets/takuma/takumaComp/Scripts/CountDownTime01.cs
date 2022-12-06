@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-public class CountDownTime1 : MonoBehaviour
+public class CountDownTime01 : MonoBehaviour
 {
     private float time = 3.0f;
     private float countdown;
@@ -13,7 +13,7 @@ public class CountDownTime1 : MonoBehaviour
     private float stoptime1;
 
 
-    public static CountDownTime1 instance;
+    public static CountDownTime01 instance;
 
     public void Awake()
     {

@@ -1,19 +1,25 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemBox : MonoBehaviour
+public class ItemBox1 : MonoBehaviour
 {
     public GameObject[] boxes;
 
     // どこからでも使えるようにする
-    public static ItemBox instance;
+    public static ItemBox1 instance;
     private void Awake()
     {
         if (instance == null)
         {
             instance = this;
         }
+    }
+
+    internal void SetItem(Item item)
+    {
+        throw new NotImplementedException();
     }
 
     private void Start()
